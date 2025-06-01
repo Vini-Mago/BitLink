@@ -17,7 +17,7 @@ const Header: React.FC = () => {
     <header className="bg-white dark:bg-gray-900 shadow-sm sticky top-0 z-10 transition-colors">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-          LinkTree
+          linkly Bio
         </Link>
         
         <div className="flex items-center gap-4">

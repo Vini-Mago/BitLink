@@ -44,11 +44,11 @@ export const createUser = (username: string, email: string, password: string): U
   
   // Check if username or email already exists
   if (users.some(user => user.username === username)) {
-    throw new Error('Username already exists');
+    throw new Error('O nome de usuário já existe');
   }
   
   if (users.some(user => user.email === email)) {
-    throw new Error('Email already exists');
+    throw new Error('O e-mail já existe');
   }
   
   // Create new user

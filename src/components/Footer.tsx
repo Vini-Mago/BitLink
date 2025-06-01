@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           Made with <Heart size={16} className="text-red-500" /> in 2025
         </p>
         <p className="mt-1">
-        Explore o <strong>Linkly</strong> — seu novo jeito elegante de organizar e compartilhar todos os seus links favoritos.
+        Explore o <strong>Linkly.Bio</strong> — seu novo jeito elegante de organizar e compartilhar todos os seus links favoritos.
         </p>
       </div>
     </footer>
